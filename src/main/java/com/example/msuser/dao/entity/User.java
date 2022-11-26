@@ -1,4 +1,4 @@
-package com.example.msuser.entity;
+package com.example.msuser.dao.entity;
 
 import com.example.msuser.model.constants.Status;
 import lombok.AllArgsConstructor;

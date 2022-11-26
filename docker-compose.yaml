@@ -3,9 +3,9 @@ services:
   mysql:
     hostname: mysql
     image: mysql
-    container_name: mysql
+    container_name: user-sql
     volumes:
-      - db-data:/var/lib/mysql
+      - db-data:/var/lib/user-sql
     environment:
       MYSQL_ROOT_PASSWORD: password
     ports:

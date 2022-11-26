@@ -1,6 +1,6 @@
-package com.example.msuser.dto;
+package com.example.msuser.model.dto;
 
-import com.example.msuser.constants.Status;
+import com.example.msuser.model.constants.Status;
 import lombok.Data;
 
 import java.time.LocalDateTime;
