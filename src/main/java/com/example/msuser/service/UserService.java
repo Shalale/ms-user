@@ -27,10 +27,10 @@ public class UserService {
         return mapper.map(user, UserDto.class);
     }
 
-    public Long getUserId(String username){
+    public UserDto getUser(String username){
         var user= repository.getUserByUsername(username);
-
-        return user.getId();
+        System.out.println(user.toString());
+        return mapper.map(user, UserDto.class);
     }
 
     public void deleteUser(Long id){

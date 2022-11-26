@@ -25,8 +25,8 @@ public class UserController {
     }
 
     @GetMapping("/name")
-    public Long getUserId(@RequestParam String username){
-        return service.getUserId(username);
+    public UserDto getUser(@RequestParam String username){
+        return service.getUser(username);
     }
 
     @DeleteMapping("/{id}")
